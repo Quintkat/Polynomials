@@ -332,6 +332,7 @@ class Polynomial:
 
 		return answer % self.mod()
 
+	# TODO: find and implement more rigorous algorithm that actually works.
 	# Returns whether or not the polynomial is irreducible
 	def isIrreducible(self) -> bool:
 		# Polynomials of degree 1 and 0 are always irreducible
